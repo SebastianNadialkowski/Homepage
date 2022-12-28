@@ -92,6 +92,9 @@ html {
     margin-right: 7px;
 }
 
+.section--photos {
+    display: center;
+}
 
 .list {
     max-width: 550px;
