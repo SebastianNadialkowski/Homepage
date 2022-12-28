@@ -72,6 +72,7 @@ html {
     padding: 5px;
     margin-bottom: 10px;
     background-image: url("images/section.jpg");
+    background-size:cover ;
 }
 
 .section__title {
