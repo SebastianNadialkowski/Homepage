@@ -11,6 +11,7 @@ html {
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
+    background-image: url("../images/tapeta.jpg");
 }
 
 .body--alternative {
