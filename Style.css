@@ -70,6 +70,7 @@ html {
     text-align: left;
     padding: 6px;
     margin-bottom: 10px;
+    background-image: url("images/section.jpg");
 }
 
 .section__title {
