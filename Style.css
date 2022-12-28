@@ -13,6 +13,7 @@ html {
     margin: 0 auto;
     text-align: center;
     background-image: url("images/tapeta.jpg");
+    background-attachment: fixed;
 }
 
 .body--alternative {
@@ -68,7 +69,7 @@ html {
     border-radius: 5px;
     font-family: 'Berkshire Swash', cursive;
     text-align: left;
-    padding: 6px;
+    padding: 5px;
     margin-bottom: 10px;
     background-image: url("images/section.jpg");
 }
@@ -79,18 +80,10 @@ html {
     border-bottom: solid #000000;
 }
 
-.section__photos {
-    resize:both;
-}
 
 .section--aboutme {
     min-height: 285px;
 }
-
-.section:hover {
-    box-shadow: 0px 0px 5px 0px #000000;
-}
-
 
 .section__image {
     float: left;
