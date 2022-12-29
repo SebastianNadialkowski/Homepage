@@ -27,6 +27,7 @@ html {
     max-width: 1000px;
     border-bottom: groove #007e11;
     border-radius: 4px;
+    
 }
 
 .header__title {
@@ -37,12 +38,14 @@ html {
     padding-left: 10px;
     padding-bottom: 3px;
     font-family: 'MedievalSharp', cursive;
+    text-shadow: 3px 3px 2px;
     margin-bottom: 3px;
 }
 
 .navigation {
     text-align: right;
     margin-right: -18px;
+
 }
 
 .navigation__item {
@@ -63,12 +66,12 @@ html {
 }
 
 .navigation__link:hover {
-    color: hsl(14, 74%, 40%);
-    border-bottom: dotted;
+    color: hsl(128, 100%, 34%);
+    
 }
 
 .navigation__link:active {
-    color: hsl(14, 74%, 60%);
+    color: hsl(128, 100%, 60%);
 }
 
 .section {
@@ -77,17 +80,25 @@ html {
     border-radius: 5px;
     padding: 5px;
     margin-bottom: 10px;
+    border: inset 1px #007e11;
+    box-shadow: 5px 4px 5px 0px #4d4d4d93;
     /* background-image: url("images/section.jpg");
     background-attachment: fixed;
     background-size: cover; */
 }
 
+.section:hover {
+    box-shadow: 5px 4px 5px 0px #4d4d4d93;
+}
+
 .section__title {
     font-family: 'MedievalSharp', cursive;
     font-size: 45px;
+    text-shadow: 3px 3px 2px;
     border-bottom: groove #007e11;
     border-radius: 4px;
-    letter-spacing: 10px;
+    letter-spacing: 3px;
+    margin-top: auto;
 }
 
 .section--aboutme {
@@ -99,12 +110,11 @@ html {
     margin-right: 7px;
 }
 
-
 .button {
+    font-weight: 900;
     border: none;
     background: none;
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 18px;
+    font-size: 19px;
     cursor: pointer;
     color: #b31818;
 }
@@ -124,6 +134,7 @@ html {
 .section__link {
     text-decoration: none;
     color: #000000;
+    font-weight: 900;
 }
 
 .section__link:visited {
@@ -131,15 +142,14 @@ html {
 }
 
 .section__link:hover {
-    color: hsl(14, 74%, 40%);
-    border-bottom: dotted;
+    color: hsl(128, 100%, 34%);
+    
 }
 
 .section__link:active {
-    color: hsl(14, 74%, 60%);
+    color: hsl(128, 100%, 60%);
 }
 
-.container {}
 
 .form {
     max-width: 360px;
