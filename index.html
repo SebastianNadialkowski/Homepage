@@ -13,155 +13,106 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="Style.css" rel="stylesheet">
     <script defer src="Script.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Lato:wght@400;700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Ms+Madi&display=swap" rel="stylesheet">
 </head>
 <body class="body">
     <header class="header" Title="<3" id="up">
-        <h1 class="header__title">Witam serdecznie na mojej pierwszej stronie internetowej!</h1>
+        <h1 class="header__title">Front End Developer</h1>
     </header>
     <nav class="navigation">
         <ul>
             <li class=" navigation__item"><a class="navigation__link" href=#aboutme>O Mnie</a></li>
             <li class=" navigation__item"><a class="navigation__link" href="#hobby">Hobby</a></li>
-            <li class=" navigation__item"><a class="navigation__link" href="#foto">Zdjęcia</a></li>
-            <li class=" navigation__item"><a class="navigation__link" href="#games">Gry</a></li>
+            <li class=" navigation__item"><a class="navigation__link" href="#photos">Zdjęcia</a></li>
+            <li class=" navigation__item"><a class="navigation__link" href="#cantor">Projekt Kantor</a></li>
             <li class=" navigation__item"><a class="navigation__link" href=#contact>Kontakt</a></li>
         </ul>
     </nav>
     <main>
         <section class="section section--aboutme">
-            <h2 class="section__title" id="aboutme"><img src="https://i.postimg.cc/xCH6PJqQ/quil1.png">O Mnie</h2>
+            <h2 class="section__title" id="aboutme">O Mnie</h2>
             <img class="section__image" src="https://i.postimg.cc/NFcpCsrH/ja.jpg" width="100"></img>
             Cześć! Na imie mam Sebastian, mam 36 lat i mieszkam
             w Tychach (woj.Śląskie).
             <br>Pracuje w dużej hurtowni częsci samochodowych zajmuje sie sprawami oddziałów, oraz przedstawicieli
             exportu.
+            <br>Zainteresowałem sie front end ponieważ lubie tworzyć, wymyślać nowe rzeczy, chciał bym zajmować sie tym profesjonalnie.
             <br>W wolnym czasie lubie posłuchać muzyki, pograć na PC, wyjsć w góry lub oddać sie któremuś
             z moich hobby.
             <br>Jezeli znudził Ci się ten styl - zmień na <button class="button js-button">czerwony</button>styl
         </section>
         <section class="section">
-            <h2 class="section__title" id="hobby"><img src="https://i.postimg.cc/xCH6PJqQ/quil1.png">
+            <h2 class="section__title" id="hobby">
                 Hobby</h2>
-            - <b>Fotografia</b> - szczególnie lubie fotografować naturę, w przyszłości chciałbym ukończyć kilka kursów.
+            - <b>Fotografia</b> - szczególnie lubie fotografować naturę - zapraszam do sekcji zdjęcia, w przyszłości chciałbym ukończyć kilka kursów.
             </li>
-            <br>- <b>Jazda rowerem</b> - odkrywanie nowych miejsc i szlaków rowerowych przez rózne tereny, oczywiscie
-            łączy
-            sie to z fotografowaniem natury ;)
+            <br>- <b>Turystyka rowerowa</b> - odkrywanie nowych miejsc i szlaków rowerowych przez rózne tereny, oczywiscie
+            łączy sie to z fotografowaniem natury ;)
             <br>- <b>Sporty siłowe</b> - szczególnie kalistenika, dzięki niej czuje że żyje, ale nie pogardze też
             tradycyjnym
             żelastwem.
-            <br><b>Poniżej przykładowy plan treningowy Kalisteniczno/Żelazny :</b>
-            <ol class="list">
-                <li class="list__item">Poniedziałek : Pompki, Dipy, Rozpiętki.
-                    <ul>po 4 serie 10-15x</ul>
-                </li>
-                <li class="list__item">Wtorek: Burpies
-                    <ul>4 serie do upadku</ul>
-                </li>
-                <li class="list__item">Środa: Podciaganie nadchwytem i podchwytem, wiosłowanie na wyciągu.
-                    <ul>po 4 serie 10-15x</ul>
-                </li>
-                <li class="list__item">Czwartek: Porozciągaj się
-                    <ul>wszystkie partie ciała</ul>
-                </li>
-                <li class="list__item">Piatek:Wykroki, Wyskoki, przysiady z hantlami
-                    <ul>po 4 serie 10-15x </ul>
-                </li>
-            </ol>
+            
         </section>
         <section class="section">
-            <h2 class="section__title" id="foto"><img src="https://i.postimg.cc/j2HkRwrc/camera1.png">
+            <h2 class="section__title" id="photos">
                 Zdjęcia
             </h2>
-            Oto kilka zdjec mojego autorstwa (wiecej na insta):
-            <div>
-                <img src="https://i.postimg.cc/SKHZ87SV/foto.jpg" width="300" alt="Czacha">
-                <img src="https://i.postimg.cc/g2Stcb1C/foto1.jpg" width="300" alt="Kukurydza">
-                <img src="https://i.postimg.cc/XY7D0Y1K/foto2.jpg" width="300" alt="Grzybek">
-                <img src="https://i.postimg.cc/VLwVDRjV/foto3.jpg" width="300" alt="Papry">
-                <img src="https://i.postimg.cc/XvrHpDbp/foto4.jpg" width="300" alt="Liscie">
-                <img src="https://i.postimg.cc/qMGZY3wM/foto5.jpg" width="300" alt="Przemijanie">
+            Oto kilka zdjec mojego autorstwa (wiecej na <a class="section__link" href="https://www.instagram.com/sirskuty/" target="_blank" rel=noreffer noopener
+            title="SirSkuty">Instagram</a>):
+            <div class="section__photos">
+                <img src="https://i.postimg.cc/SKHZ87SV/foto.jpg" width="326" alt="Czacha">
+                <img src="https://i.postimg.cc/g2Stcb1C/foto1.jpg" width="326" alt="Kukurydza">
+                <img src="https://i.postimg.cc/XY7D0Y1K/foto2.jpg" width="326" alt="Grzybek">
+                <img src="https://i.postimg.cc/VLwVDRjV/foto3.jpg" width="326" alt="Papry">
+                <img src="https://i.postimg.cc/XvrHpDbp/foto4.jpg" width="326" alt="Liscie">
+                <img src="https://i.postimg.cc/qMGZY3wM/foto5.jpg" width="326" alt="Przemijanie">
             </div>
             A takim sprzętem robię zdjęcia: <a class="section__link" title=" Panasonic Lumix (nowa karta)"
                 href="https://www.fotopolis.pl/testy/aparaty/29125-panasonic-lumix-dmc-fz82-czyli-60-krotny-zoom-w-praktyce">Moj
                 Lumix</a>
         </section>
         <section class="section">
-            <h2 class="section__title" id="games"><img 
-                    src="https://i.postimg.cc/ZYpQ8gyN/mouse1.png">Moje
-                Ulubione Gry</h2>
-            Głownie lubie gry RPG czyli te gdzie rozwijasz swoją postać, jezeli ktoś chciał by ze mną pograć, to
-            zapraszam do kontaktu ;)
-            <br><b>Poniżej tabela z moimi ulubionymi grami:</b>
-            <div class="container">
-                <table class="table">
-                    <thead>
-                        <tr class="table__row">
-                            <th class="table__header">Nazwa</th>
-                            <th class="table__header">Gatunek</th>
-                            <th class="table__header">Ilość Godzin</th>
-                            <th class="table__header">Ocena</th>
-                            <th class="table__header">Online</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="table__row">
-                            <th>Diablo3</th>
-                            <td>H'N'S</td>
-                            <td>234</td>
-                            <td>Dobra</td>
-                            <td>Tak</td>
-                        </tr>
-
-                        <tr class="table__row">
-                            <th>AC Valhalla</th>
-                            <td>RPG</td>
-                            <td>89</td>
-                            <td>Bardzo dobra</td>
-                            <td>Tak</td>
-                        </tr>
-                        <tr class="table__row">
-                            <th>Cyberpunk 2077</th>
-                            <td>RPG</td>
-                            <td>113</td>
-                            <td>Super</td>
-                            <td>Nie</td>
-                        </tr>
-                        <tr class="table__row">
-                            <th>Borderlands 3</th>
-                            <td>FPS</td>
-                            <td>164</td>
-                            <td>Bardzo Dobra</td>
-                            <td>Nie</td>
-                        </tr>
-                        <tr class="table__row">
-                            <th>Red Alert</th>
-                            <td>RTS</td>
-                            <td>86</td>
-                            <td>Bardzo Dobra</td>
-                            <td>Nie</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <h2 class="section__title" id="cantor">Projekt Kantor</h2>
+                    <div class="container">
+                    <form class="form js-form">
+                        <label class="form__label">
+                          KWOTA W PLN:
+                          <input class="form__field js-value" type="number" min="0.01" step="0.01" required placeholder="POLE WYMAGANE">
+                        </label>
+                        <p></p>
+                        <label class="form__label">
+                          WYBIERZ WALUTĘ:
+                        <select class="form__field js-currency">
+                          <option value="EUR">EURO (EUR)</option>
+                          <option value="USD">DOLAR (USD)</option>
+                          <option value="GBP">FUNT (GBP)</option>
+                          <option value="CHF">FRANK (CHF)</option>
+                          <option value="JPY">JEN (JPY)</option>
+                        </select>
+                        </label>
+                        <p><button class="form__button">
+                            PRZELICZ
+                          </button>
+                        <p class="js-result">...............................................
+                        <p class="form_info">kurs walut z dnia 15.12.2022r
+                      </form>
+                    </div>
         </section>
         <section class="section">
-            <h2 class="section__title" id="contact"><img
-                    src="https://i.postimg.cc/xCH6PJqQ/quil1.png">Kontakt
+            <h2 class="section__title" id="contact">Kontakt
             </h2>
             <li>
-                <a class="section__link" href="mailto:Sirskuty@gmail.com" title="sirskuty@gmail.com">Napisz Maila</a>
+                <a class="section__link" href="mailto:Sirskuty@gmail.com" title="sirskuty@gmail.com">E-Mail</a>
             </li>
             <li>
-                <a class="section__link" href="callto:+48 123 456 708" title="123 456 708 ">Zadzwoń</a>
+                <a class="section__link" href="https://github.com/SebastianNadialkowski?tab=repositories" title="Sebastian Nadiałkowski">Github</a>
             </li>
             <li>
                 <a class="section__link" href="https://www.instagram.com/sirskuty/" target="_blank" rel=noreffer noopener
-                    title="SirSkuty">Moj Instagram</a>
+                    title="SirSkuty">Instagram</a>
             </li>
         </section>
     </main>

@@ -6,14 +6,16 @@ html {
     box-sizing: inherit;
 }
 
-
 .body {
     color: #003807;
     max-width: 1000px;
     margin: 0 auto;
-    text-align: center;
-    background-image: url("images/tapeta.jpg");
+    line-height: 1.30;
+    font-family: 'Berkshire Swash', cursive;
+    text-align: left;
+    background-image: url("images/section.jpg");
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .body--alternative {
@@ -22,23 +24,27 @@ html {
 
 .header {
     max-width: 1000px;
-    border-bottom: solid #000000;
+    border-bottom: groove #007e11;
+    border-radius: 4px;
 }
 
 .header__title {
-    font-family: 'Ms Madi', cursive;
+    word-spacing: 20px;
+    letter-spacing: 10px;
     font-size: 50px;
     padding-top: 2px;
     padding-left: 10px;
+    padding-bottom: 3px;
+    font-family: 'MedievalSharp', cursive;
     margin-bottom: 3px;
 }
 
 .navigation {
     text-align: right;
+    margin-right: -18px;
 }
 
 .navigation__item {
-    font-family: 'Berkshire Swash', cursive;
     display: inline-block;
     padding: 0 20px;
     font-weight: 700;
@@ -66,21 +72,19 @@ html {
 
 .section {
     max-width: 1000px;
+    min-height: 285px;
     border-radius: 5px;
-    font-family: 'Berkshire Swash', cursive;
-    text-align: left;
     padding: 5px;
     margin-bottom: 10px;
-    background-image: url("images/section.jpg");
-    background-size:cover ;
 }
 
 .section__title {
-    font-family: 'Ms Madi', cursive;
-    font-size: 40px;
-    border-bottom: solid #000000;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 45px;
+    border-bottom: groove #007e11;
+    border-radius: 4px;
+    letter-spacing: 10px;
 }
-
 
 .section--aboutme {
     min-height: 285px;
@@ -91,44 +95,6 @@ html {
     margin-right: 7px;
 }
 
-.list {
-    max-width: 550px;
-}
-
-
-.list__item {
-    margin-bottom: 10px;
-
-}
-
-.list__item:hover {
-    background: rgb(99, 99, 99);
-}
-
-.container {
-    overflow-x: auto;
-}
-
-.table {
-    margin: 10px;
-    border-collapse: collapse;
-    width: 800px;
-}
-
-.table__header {
-    background: #dfdfdf;
-}
-.table__row {
-    text-align: center;
-}
-
-.table__row:nth-child(even) {
-    background: #dfdfdf;
-}
-
-.table__row:hover {
-    background: rgb(102, 102, 102);
-}
 
 .button {
     border: none;
@@ -140,13 +106,16 @@ html {
 }
 
 .button:hover {
-    box-shadow: 0px 0px 5px 0px #000000;
+    text-decoration: underline;
 }
 
 .button--green {
     color: #003807;
 }
 
+.button--green:hover {
+    text-decoration: underline;
+}
 
 .section__link {
     text-decoration: none;
@@ -166,9 +135,50 @@ html {
     color: hsl(14, 74%, 60%);
 }
 
-.footer {
-    margin: 15px;
+.container {}
+
+.form {
+    max-width: 360px;
+    padding-left: 28px;
+    text-align: center;
+    font-family: 'MedievalSharp', cursive;
+    font-weight: 900;
 }
+
+.form__label {
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 2px 2px 8px #ccc;
+}
+
+.form__field {
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: rgb(173, 169, 169);
+    box-shadow: 2px 2px 8px #ccc;
+}
+
+.form__button {
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+    border: solid 1px;
+    border-color: rgb(173, 169, 169);
+    border-radius: 5px;
+    background-color: rgb(214, 233, 214);
+    box-shadow: 2px 2px 8px #ccc;
+}
+
+.form_info {
+    font-size: 10px;
+    color: rgb(128, 128, 128);
+}
+
+.footer {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
 .footer__link {
     text-decoration: none;
     color: #000000;
