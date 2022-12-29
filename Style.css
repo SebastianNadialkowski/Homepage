@@ -11,9 +11,10 @@ html {
     max-width: 1000px;
     margin: 0 auto;
     line-height: 1.30;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'MedievalSharp', cursive;
+    font-weight: 700;
     text-align: left;
-    background-image: url("images/section.jpg");
+    background-image: url("images/tapeta.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
@@ -76,6 +77,9 @@ html {
     border-radius: 5px;
     padding: 5px;
     margin-bottom: 10px;
+    /* background-image: url("images/section.jpg");
+    background-attachment: fixed;
+    background-size: cover; */
 }
 
 .section__title {
