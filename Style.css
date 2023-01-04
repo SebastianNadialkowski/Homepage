@@ -87,6 +87,12 @@ html {
     background-size: cover; */
 }
 
+.section__photos {
+    display:flex;
+    flex-direction: column;
+    flex: initial;
+}
+
 .section:hover {
     box-shadow: 5px 4px 5px 0px #4d4d4d93;
 }
