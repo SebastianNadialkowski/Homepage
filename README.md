@@ -1,6 +1,5 @@
 # HOMEPAGE 
 
-### Cześć! 
 
 ### Homepage to strona *O Mnie* oraz taki pierwszy samodzielny projekt zbudowany od zera
 
@@ -40,7 +39,7 @@ jest:
 ```javascript
 {
     const button = document.querySelector(".js-button");
-    const init = () => {
+    const doIt = () => {
         button.addEventListener("click", changeTextColorClick);
     };
 
@@ -64,5 +63,4 @@ jest:
 
 Zapraszam od odwiedzania mojej strony, co jakis czas się zmienia ;)
 
-Pozdrawiam !
 
