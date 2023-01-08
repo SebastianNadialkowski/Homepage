@@ -62,7 +62,7 @@ jest:
     const button = document.querySelector(".js-button");
 ```
 
-Zapraszam od odwiedzania mojej strony, co jakis czas się zmienia
+Zapraszam od odwiedzania mojej strony, co jakis czas się zmienia ;)
 
 Pozdrawiam !
 
