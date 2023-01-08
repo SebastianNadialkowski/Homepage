@@ -1,4 +1,4 @@
-# Stronka o mnie 
+# HOMEPAGE 
 ## [Zapraszam do obejrzenia](https://sebastiannadialkowski.github.io/Homepage/index.html)
 
 ### trochę teorii nt. Markdown
