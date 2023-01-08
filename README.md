@@ -1,40 +1,39 @@
 # HOMEPAGE 
-## [Zapraszam do obejrzenia](https://sebastiannadialkowski.github.io/Homepage/index.html)
 
-### trochę teorii nt. Markdown
+### Cześć! 
 
-**dwie gwiazdki robią wytłuszczenie**
+### Homepage to strona *O Mnie* oraz taki pierwszy samodzielny projekt zbudowany od zera
 
-*jedna gwiazdka daje kursywe*
+Powstała z myślą o przyszłym portfolio jako *Front End Developer*
 
-nagłowki zalezą od ilosci hasztagów od 1 do 6
+- strona jest cały czas rozwijana (w miare mojej mauki)
+- obecna forma oraz poprzednie do zobaczenia w repozytorium 
+- domyslnie będzie to zbiór moich projektów, oraz mój mały zyciorys 
 
-1. element listy **uporządkowanej** numerujemy tak > .1
+Zapraszam do obejrzenia (https://sebastiannadialkowski.github.io/Homepage/index.html)
+![image](https://user-images.githubusercontent.com/121190741/211201983-4401a998-55da-418c-81d5-10d904593a62.png)
 
-- element listy **nieuporządkowanej** numerujemy tak > -
 
-linki robimy tak : [google](https://google.com) < (czyli [nazwa linka](tutaj adres www) i bedzie wyświetlało jako nazwa google i link do stronki
 
-lub mozna zwyczajnie wkleić linka i tez bedzie, ale bez nazwy > https://google.com
+- na stronce jest przycisk do zmiany koloru czcionki, zachęcam do kliknięcia ;)
+- ![image](https://user-images.githubusercontent.com/121190741/211202097-650adda8-479c-4c6e-9344-01049c70e8a4.png)
 
-obrazki dajemy tak ![alternatywny tekst](link do obrazka) tylko nie może być spacji miedzy ]a(
 
-tutaj przykładowy obrazek
+ostatnio zrobiłem mały refactoring kodu odpowiedzialnego za tą funkcje:
 
-![czacha](https://i.postimg.cc/SKHZ87SV/foto.jpg)
-
-można tez wrzucać kod javacript np:
-
-fragment kodu : `console.log(5)`
-
+było:
 ```javascript
-let myNymber = 5;
-console.log(myNumber)
+let button = document.querySelector(".js-button");
+let body = document.querySelector(".body")
+
+button.addEventListener("click", () => {
+    body.classList.toggle("body--alternative");
+    button.classList.toggle("button--green");
+    button.innerText = body.classList.contains("body--alternative") ? " zielony " : " czerwony "
+});
 ```
 
-Więcej o Markdown
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+jest:
 
-Edytory
-https://dillinger.io/
-https://stackedit.io/
+
+
