@@ -19,7 +19,7 @@ Zapraszam do obejrzenia (https://sebastiannadialkowski.github.io/Homepage/index.
 - ![image](https://user-images.githubusercontent.com/121190741/211202097-650adda8-479c-4c6e-9344-01049c70e8a4.png)
 
 
-ostatnio zrobiłem mały refactoring kodu odpowiedzialnego za tą funkcje:
+ostatnio zrobiłem mały refactoring kodu odpowiedzialnego za tą funkcje (*praca domowa moduł 5*):
 
 było:
 ```javascript
@@ -35,5 +35,34 @@ button.addEventListener("click", () => {
 
 jest:
 
+- zostały dodane 2 funkcje : changeTextColorClick, doIt 
 
+```javascript
+{
+    const button = document.querySelector(".js-button");
+    const init = () => {
+        button.addEventListener("click", changeTextColorClick);
+    };
+
+    const changeTextColorClick = () => {
+        const body = document.querySelector(".body")
+        body.classList.toggle("body--alternative");
+        button.classList.toggle("button--green");
+        button.innerText = body.classList.contains("body--alternative") ? " zielony " : " czerwony "
+    };
+
+    doIt();
+}
+```
+
+- ten element musiałem dać na zewnątrz funkcji poniewaz obie korzystają z "button" i nie chciałem powielać tego w kazdej funkcji
+
+```javascript
+{
+    const button = document.querySelector(".js-button");
+```
+
+Zapraszam od odwiedzania mojej strony, co jakis czas się zmienia
+
+Pozdrawiam !
 
