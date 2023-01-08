@@ -1,11 +1,19 @@
-let button = document.querySelector(".js-button");
-let body = document.querySelector(".body")
 
-button.addEventListener("click", () => {
-    body.classList.toggle("body--alternative");
-    button.classList.toggle("button--green");
-    button.innerText = body.classList.contains("body--alternative") ? " zielony " : " czerwony "
-});
+{
+    const button = document.querySelector(".js-button");
+    const doIt = () => {
+        button.addEventListener("click", changeTextColorClick);
+    };
+
+    const changeTextColorClick = () => {
+        const body = document.querySelector(".body")
+        body.classList.toggle("body--alternative");
+        button.classList.toggle("button--green");
+        button.innerText = body.classList.contains("body--alternative") ? " zielony " : " czerwony "
+    };
+
+    doIt();
+}
 
 let valueElement = document.querySelector(".js-value");
 let currencyElement = document.querySelector(".js-currency");
