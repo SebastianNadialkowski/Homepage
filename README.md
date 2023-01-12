@@ -1,7 +1,7 @@
 # MY HOMEPAGE 
 
 
-### Homepage is a page about me and such a first standalone project built from scratch (it's in Polish)
+### Homepage is a page about *ME* and such a first standalone project built from scratch (it's in Polish)
 
 Established for future portfolio as *Front End Developer*.
 
