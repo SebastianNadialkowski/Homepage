@@ -1,7 +1,7 @@
 
 {
     const button = document.querySelector(".js-button");
-    const doIt = () => {
+    const init = () => {
         button.addEventListener("click", changeTextColorClick);
     };
 
@@ -12,7 +12,7 @@
         button.innerText = body.classList.contains("body--alternative") ? " zielony " : " czerwony "
     };
 
-    doIt();
+    init();
 }
 
 let valueElement = document.querySelector(".js-value");
