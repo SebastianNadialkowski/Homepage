@@ -62,11 +62,11 @@ now is:
 ```
 
 ### Used Technologies
-- HTML,
-- CSS,
-- Java Script,
-- GIT,
-- BEM convention.
+- HTML
+- CSS
+- Java Script
+- GIT
+- BEM convention
 
 ## THANK YOU FOR VISITING ;)
 
