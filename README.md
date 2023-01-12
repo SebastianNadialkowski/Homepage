@@ -10,8 +10,9 @@ Established for future portfolio as *Front End Developer*.
 - by default, it will be a collection of my projects, and my small biography 
 
 ## DEMO 
-I invite you to take a look at (https://sebastiannadialkowski.github.io/Homepage/index.html)
-![image](https://user-images.githubusercontent.com/121190741/211201983-4401a998-55da-418c-81d5-10d904593a62.png)
+Take a look > (https://sebastiannadialkowski.github.io/Homepage/index.html)
+![HOMEPAGE](https://user-images.githubusercontent.com/121190741/212138970-65481075-62fd-4465-b911-fd4f4adae0b9.gif)
+
 
 ## COMMENT & USED TECHNOLOGIES
 
