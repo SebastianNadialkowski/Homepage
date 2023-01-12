@@ -35,12 +35,12 @@ button.addEventListener("click", () => {
 
 now is:
 
-- 2 features have been added: changeTextColorClick, doIt 
+- 2 features have been added: changeTextColorClick, init
 
 ```javascript
 {
     const button = document.querySelector(".js-button");
-    const doIt = () => {
+    const init = () => {
         button.addEventListener("click", changeTextColorClick);
     };
 
@@ -51,7 +51,7 @@ now is:
         button.innerText = body.classList.contains("body--alternative") ? " zielony " : " czerwony "
     };
 
-    doIt();
+    init();
 }
 ```
 
