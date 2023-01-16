@@ -1,27 +1,27 @@
-# HOMEPAGE 
-
-### Cześć! 
-
-### Homepage to strona *O Mnie* oraz taki pierwszy samodzielny projekt zbudowany od zera
-
-Powstała z myślą o przyszłym portfolio jako *Front End Developer*
-
-- strona jest cały czas rozwijana (w miare mojej mauki)
-- obecna forma oraz poprzednie do zobaczenia w repozytorium 
-- domyslnie będzie to zbiór moich projektów, oraz mój mały zyciorys 
-
-Zapraszam do obejrzenia (https://sebastiannadialkowski.github.io/Homepage/index.html)
-![image](https://user-images.githubusercontent.com/121190741/211201983-4401a998-55da-418c-81d5-10d904593a62.png)
+# MY HOMEPAGE 
 
 
+### Homepage is a page about *ME* and such a first standalone project built from scratch (it's in Polish)
 
-- na stronce jest przycisk do zmiany koloru czcionki, zachęcam do kliknięcia ;)
+Established for future portfolio as *Front End Developer*.
+
+- the site is being developed all the time (to the best of my ability)
+- current form and previous ones can be seen in the repository 
+- by default, it will be a collection of my projects, and my small biography 
+
+## DEMO 
+Take a look > (https://sebastiannadialkowski.github.io/Homepage/index.html)
+![HOMEPAGE](https://user-images.githubusercontent.com/121190741/212138970-65481075-62fd-4465-b911-fd4f4adae0b9.gif)
+
+
+## COMMENT & USED TECHNOLOGIES
+
+- there is a button on the page to change the font color, I encourage you to click ;)
 - ![image](https://user-images.githubusercontent.com/121190741/211202097-650adda8-479c-4c6e-9344-01049c70e8a4.png)
 
+I recently did a little refactoring of the code responsible for this function
 
-ostatnio zrobiłem mały refactoring kodu odpowiedzialnego za tą funkcje (*praca domowa moduł 5*):
-
-było:
+was:
 ```javascript
 let button = document.querySelector(".js-button");
 let body = document.querySelector(".body")
@@ -33,9 +33,9 @@ button.addEventListener("click", () => {
 });
 ```
 
-jest:
+now is:
 
-- zostały dodane 2 funkcje : changeTextColorClick, doIt 
+- 2 features have been added: changeTextColorClick, init
 
 ```javascript
 {
@@ -51,18 +51,26 @@ jest:
         button.innerText = body.classList.contains("body--alternative") ? " zielony " : " czerwony "
     };
 
-    doIt();
+    init();
 }
 ```
 
-- ten element musiałem dać na zewnątrz funkcji poniewaz obie korzystają z "button" i nie chciałem powielać tego w kazdej funkcji
+- this element I had to give outside the function because they both use "button" and I didn't want to duplicate it in each function
 
 ```javascript
 {
     const button = document.querySelector(".js-button");
 ```
 
-Zapraszam od odwiedzania mojej strony, co jakis czas się zmienia
+### Used Technologies
+- HTML
+- CSS
+- Java Script
+- GIT
+- BEM convention
 
-Pozdrawiam !
+## THANK YOU FOR VISITING ;)
+
+I invite you to visit my site, it changes as I learn new things
+
 
