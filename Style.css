@@ -82,15 +82,11 @@ html {
     margin-bottom: 10px;
     border: inset 1px #007e11;
     box-shadow: 5px 4px 5px 0px #4d4d4d93;
-    /* background-image: url("images/section.jpg");
-    background-attachment: fixed;
-    background-size: cover; */
 }
 
 .section__photos {
     display:flex;
-    flex-direction: column;
-    flex: initial;
+    flex-wrap:wrap;
 }
 
 .section:hover {
