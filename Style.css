@@ -84,9 +84,18 @@ html {
     box-shadow: 5px 4px 5px 0px #4d4d4d93;
 }
 
-.section__photos {
+.container {
     display:flex;
+    justify-content:space-evenly;
     flex-wrap:wrap;
+}
+
+.container__photo  {
+     margin:6px;
+}
+
+.container__photo:hover {
+    border: solid 2px rgba(0, 0, 0, 0);
 }
 
 .section:hover {
