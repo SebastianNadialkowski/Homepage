@@ -90,6 +90,10 @@ html {
     flex-wrap:wrap;
 }
 
+.section__cantor {
+    background-image: url("images/kantor.jpg");
+    background-size:contain;
+}
 .container__photo  {
      margin:6px;
 }
