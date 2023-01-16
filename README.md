@@ -58,7 +58,6 @@ now is:
 - this element I had to give outside the function because they both use "button" and I didn't want to duplicate it in each function
 
 ```javascript
-{
     const button = document.querySelector(".js-button");
 ```
 
