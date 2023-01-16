@@ -17,7 +17,6 @@ Take a look > (https://sebastiannadialkowski.github.io/Homepage/index.html)
 ## COMMENT & USED TECHNOLOGIES
 
 - there is a button on the page to change the font color, I encourage you to click ;)
-- ![image](https://user-images.githubusercontent.com/121190741/211202097-650adda8-479c-4c6e-9344-01049c70e8a4.png)
 
 I recently did a little refactoring of the code responsible for this function
 
