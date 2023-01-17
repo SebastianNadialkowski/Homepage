@@ -11,7 +11,7 @@ Established for future portfolio as *Front End Developer*.
 
 ## DEMO 
 Take a look > (https://sebastiannadialkowski.github.io/Homepage/index.html)
-![HOMEPAGE](https://user-images.githubusercontent.com/121190741/212138970-65481075-62fd-4465-b911-fd4f4adae0b9.gif)
+
 
 
 ## COMMENT & USED TECHNOLOGIES
